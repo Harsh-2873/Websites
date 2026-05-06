@@ -728,27 +728,3 @@
         </body>
 
 </html>
-vent) => {
-                        if (event.key === 'Enter' || event.key === ' ') {
-                            event.preventDefault();
-                            openDetails();
-                        }
-                    });
-
-                    gallery.appendChild(col);
-                });
-
-                hasRendered = true;
-            };
-
-            categoryButton.addEventListener('click', () => {
-                renderGallery();
-                productsView.classList.remove('d-none');
-                productsView.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            });
-        })();
-    </script>
-                <script src="js/main.js"></script>
-        </body>
-
-</html>

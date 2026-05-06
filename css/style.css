@@ -47,7 +47,12 @@
     transition: .5s;
 }
 
-.btn.btn-primary,
+.btn.btn-primary{
+    color: #000000;
+    background-color: #eaff02;
+    border-color: #ffffff;
+}
+
 .btn.btn-secondary {
     color: #FFFFFF;
 }
